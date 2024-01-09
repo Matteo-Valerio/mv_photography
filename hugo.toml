@@ -1,5 +1,5 @@
 baseurl = "https://example.com"
-copyright = "© Will Faught"
+copyright = "© Matteo Valerio"
 enablerobotstxt = true
 languagecode = "en-us"
 paginate = 50
@@ -131,4 +131,4 @@ tag = "tags"
 color = "rgba(0, 0, 0, 0)" # Bootstrap primary color and theme color for Safari and Windows
 
 [params.paige.menu]
-style = "underline" # Must be "links", "pills", "tabs", or "underline"
+style = "pills" # Must be "links", "pills", "tabs", or "underline"
