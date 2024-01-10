@@ -1,0 +1,55 @@
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+
+<script>
+    let tooltip = null;
+    let tooltipVisible = false;
+
+    document.addEventListener('contextmenu', event => {
+        event.preventDefault();
+        if (!tooltipVisible) {
+            if (!tooltip) {
+                tooltip = document.createElement('div');
+                tooltip.innerText = "© Matteo Valerio";
+                tooltip.style.position = 'fixed';
+                tooltip.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+                tooltip.style.color = '#fff';
+                tooltip.style.padding = '5px 10px';
+                tooltip.style.borderRadius = '5px';
+                tooltip.style.zIndex = '9999';
+                document.body.appendChild(tooltip);
+            }
+
+            updateTooltipPosition(event.clientX, event.clientY);
+            tooltip.style.display = 'block';
+            tooltipVisible = true;
+
+            setTimeout(() => {
+                tooltip.style.display = 'none';
+                tooltipVisible = false;
+            }, 2000); // Hide tooltip after 2 secondi
+        }
+    });
+
+    function updateTooltipPosition(x, y) {
+        const offsetX = 20; // tooltip posX
+        const offsetY = 20; // tooltip posY
+        if (tooltip) {
+            tooltip.style.top = `${y + offsetY}px`;
+            tooltip.style.left = `${x + offsetX}px`;
+        }
+    }
+
+    document.addEventListener('mousemove', event => {
+        if (tooltipVisible) {
+            updateTooltipPosition(event.clientX, event.clientY);
+        }
+    });
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+

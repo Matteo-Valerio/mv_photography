@@ -1,21 +1,22 @@
 ---
-title: "Paige"
-description: "Powerful, pliable pixel perfection."
+title: "Matteo Valerio"
+description: "PHOTOGRAPHY"
 paige:
-  search:
-    hide_page: true
-  style: |
-    #paige-collections,
-    #paige-sections,
-    #paige-pages {
-        display: none;
-    }
-    #paige-title {
-        font-size: 5rem;
-    }
+    style: |
+        #paige-title {  
+            font-size: 4rem;    
+            font-family: Hind, sans-serif;
+            padding-top: 2rem;
+        }
+        #paige-description {
+            font-size: rem;
+            font-family: Hind, sans-serif;
+            padding-bottom: 1rem;
+        } 
+authors: ["matteo-valerio"] 
 ---
 
-<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=1296" width="100%" %}}</p>
+<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="22rem" loading="eager" process="webp" src="./img.jpg" width="100%" %}}</p>
 
 <p class="display-5 fw-bold h2 text-center">An advanced Hugo theme</p>
 
@@ -32,3 +33,5 @@ paige:
     {{< paige/icon class="bi bi-instagram" title="Instagram" url="https://github.com/willfaught/paige" >}}
     {{< paige/icon class="bi bi-telegram" title="Telegram" url="https://github.com/willfaught/paige" >}}    
 </div>
+
+

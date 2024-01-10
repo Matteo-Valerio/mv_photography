@@ -15,3 +15,11 @@
 .paige-summary {
     display: none;
 }
+
+#paige-collections,
+#paige-sections,
+#paige-pages {
+    display: none;
+}
+
+#paige-content { width: 111ch; }
