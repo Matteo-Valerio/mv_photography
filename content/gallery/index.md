@@ -22,5 +22,5 @@ description: "Una pagina con una galleria di immagini"
     {{< paige/icon class="bi bi-github" title="GitHub" url="https://github.com/willfaught/paige" >}}
 </div>
 
-{{< gallery match="images/*" sortOrder="desc" rowHeight="100" margins="10" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="images/*" sortOrder="desc" rowHeight="100" margins="10" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
