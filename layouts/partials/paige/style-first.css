@@ -23,3 +23,17 @@
 }
 
 #paige-content { width: 111ch; }
+
+.rounded-image {
+    border-radius: 0px;
+    overflow: hidden;
+}
+.rounded-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+.rounded-container {
+    border-radius: 30px;
+    overflow: hidden;
+}

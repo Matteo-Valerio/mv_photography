@@ -34,4 +34,6 @@ authors: ["matteo-valerio"]
     {{< paige/icon class="bi bi-telegram" title="Telegram" url="https://github.com/willfaught/paige" >}}    
 </div>
 
-
+<p>
+{{< carousel items="2" height="30" unit="%" duration="2000" >}}
+</p>
