@@ -2,12 +2,15 @@
 {{ .Scratch.Set "unit" (.Get "unit") }}
 {{ .Scratch.Set "ordinal" .Ordinal }}
 {{ .Scratch.Set "items" (.Get "items") }}
-<div id="carousel{{ .Ordinal }}" class="carousel rounded-container" duration="{{ .Get "duration" }}">
-    <ul>
+<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get "duration" }}">
+    <ul style="background-color: rgba(0,0,0,0) !important;">
       {{ range $index, $slide := .Site.Data.carousel.images }}
-        <li id="c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.Scratch.Get "items" }}); padding-bottom: {{ $.Scratch.Get "height" }}{{ $.Scratch.Get "unit" }};">
+        <li id="c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1}}" 
+            style="min-width: calc(100%/{{ $.Scratch.Get "items" }}); 
+                   padding-bottom: {{ $.Scratch.Get "height" }}{{ $.Scratch.Get "unit" }}; 
+                   margin-right: 0px;">
             <div class="rounded-image">
-                <img src="{{ $slide.image }}" alt="" />
+                <img src="{{ $slide.image }}" alt=""/>
             </div>
             <div><div>{{ $slide.content_html }}</div></div>
         </li>

@@ -35,5 +35,5 @@ authors: ["matteo-valerio"]
 </div>
 
 <p>
-{{< carousel items="2" height="30" unit="%" duration="2000" >}}
+{{< carousel items="4" height="25" unit="%" duration="4000" >}}
 </p>

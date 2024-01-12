@@ -24,16 +24,11 @@
 
 #paige-content { width: 111ch; }
 
-.rounded-image {
-    border-radius: 0px;
-    overflow: hidden;
-}
 .rounded-image img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
     border-radius: 0px;
 }
-.rounded-container {
-    border-radius: 30px;
-    overflow: hidden;
-}
+
+  
