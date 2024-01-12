@@ -24,11 +24,4 @@
 
 #paige-content { width: 111ch; }
 
-.rounded-image img {
-    width: auto;
-    height: 20vh;
-    object-fit: cover;
-    border-radius: 0px;
-}
-
   

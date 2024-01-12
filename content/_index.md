@@ -16,7 +16,9 @@ paige:
 authors: ["matteo-valerio"] 
 ---
 
-<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="22rem" loading="eager" process="webp" src="./img.jpg" width="100%" %}}</p>
+<p>
+{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="22rem" loading="eager" process="webp" src="./img.jpg" width="100%" %}}
+</p>
 
 <p class="display-5 fw-bold h2 text-center">An advanced Hugo theme</p>
 
@@ -28,12 +30,12 @@ authors: ["matteo-valerio"]
     </div>
 </div>
 
+<p>
+{{< carousel items="4" height="20" unit="%" duration="1000" >}}
+</p>
+
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
     {{< paige/icon class="bi bi-image" title="Flickr" url="https://github.com/willfaught/paige" >}}
     {{< paige/icon class="bi bi-instagram" title="Instagram" url="https://github.com/willfaught/paige" >}}
     {{< paige/icon class="bi bi-telegram" title="Telegram" url="https://github.com/willfaught/paige" >}}    
 </div>
-
-<p>
-{{< carousel items="4" height="25" unit="%" duration="4000" >}}
-</p>
