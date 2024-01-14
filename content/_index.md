@@ -34,6 +34,10 @@ authors: ["matteo-valerio"]
 {{< carousel items="4" height="20" unit="%" duration="1000" >}}
 </p>
 
+<p>
+{{< infinite_carousel items="4" height="20" unit="%" duration="1000" >}}
+</p>
+
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
     {{< paige/icon class="bi bi-image" title="Flickr" url="https://github.com/willfaught/paige" >}}
     {{< paige/icon class="bi bi-instagram" title="Instagram" url="https://github.com/willfaught/paige" >}}
