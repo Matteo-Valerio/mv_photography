@@ -1,0 +1,21 @@
+<div class="glide">
+
+    <div class="glide__track" data-glide-el="track">
+
+        <ul class="glide__slides">
+            {{ range $index, $slide := .Site.Data.carousel.images }}            
+                <li class="glide__slide">
+                    <a href="/gallery">
+                    <img src="{{ $slide.image }}" alt=""/> </a>
+                </li>
+            {{ end }}
+        </ul>      
+
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+        </div>
+
+    </div>
+
+</div>

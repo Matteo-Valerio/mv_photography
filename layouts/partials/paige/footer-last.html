@@ -1,5 +1,20 @@
+<!-- carousel codex -->
 <script type="text/javascript" src="/js/carousel.js"></script>
 <link rel="stylesheet" href="/css/carousel.css">
 
-<script type="text/javascript" src="/js/infinite_carousel.js"></script>
-<link rel="stylesheet" href="/css/infinite_carousel.css">
+<!-- carousel glide -->
+<script type="text/javascript" src="/js/glide.js"></script>
+<link rel="stylesheet" href="/css/glide.core.css">
+<link rel="stylesheet" href="/css/glide.theme.css">
+
+<!-- initialize glide -->
+<script>
+  new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 4,
+            gap: 5,
+            autoplay: 3000,
+            animationDuration: 2000,            
+            }).mount()
+</script>

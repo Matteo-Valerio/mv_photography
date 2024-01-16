@@ -30,12 +30,15 @@ authors: ["matteo-valerio"]
     </div>
 </div>
 
+<!--
 <p>
-{{< carousel items="4" height="20" unit="%" duration="1000" >}}
+    {{< carousel items="4" height="20" unit="%" duration="1000" >}}
 </p>
+-->
+
 
 <p>
-{{< infinite_carousel items="4" height="20" unit="%" duration="1000" >}}
+    {{< glide >}}
 </p>
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
