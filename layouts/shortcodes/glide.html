@@ -5,7 +5,7 @@
         <ul class="glide__slides">
             {{ range $index, $slide := .Site.Data.carousel.images }}            
                 <li class="glide__slide">
-                    <a href="/gallery">
+                    <a href="/carousel">
                     <img src="{{ $slide.image }}" alt=""/> </a>
                 </li>
             {{ end }}
