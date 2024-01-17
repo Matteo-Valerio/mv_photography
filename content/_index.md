@@ -17,7 +17,10 @@ authors: ["matteo-valerio"]
 ---
 
 <p>
-{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="22rem" loading="eager" process="webp" src="./img.jpg" width="100%" %}}
+{{% paige/image alt="Landscape" 
+    breakpoints=true class="object-fit-cover rounded-3" 
+    fetchpriority="high" height="22rem" loading="eager" process="webp" 
+    src="./img.jpg" width="100%" %}}
 </p>
 
 <p class="display-5 fw-bold h2 text-center">An advanced Hugo theme</p>

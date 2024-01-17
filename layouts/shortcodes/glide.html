@@ -2,14 +2,21 @@
 
     <div class="glide__track" data-glide-el="track">
 
+        
+
         <ul class="glide__slides">
-            {{ range $index, $slide := .Site.Data.carousel.images }}            
-                <li class="glide__slide">
-                    <a href="/carousel">
-                    <img src="{{ $slide.image }}" alt=""/> </a>
-                </li>
+            {{ $images := readDir "content/carousel/images" }}
+            {{ $dir_imgs := "/carousel/images/" }}
+            {{ with $images }}
+                {{ range $index, $image := $images }}
+                    <li class="glide__slide">
+                        <a href="/carousel">
+                            <img src="{{ printf "%s%s" $dir_imgs $image.Name }}" alt=""/>
+                        </a>
+                    </li>
+                {{ end }}
             {{ end }}
-        </ul>      
+        </ul> 
 
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>

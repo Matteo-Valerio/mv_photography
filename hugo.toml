@@ -9,8 +9,6 @@ titlecasestyle = "Go"
 theme = ["hugo-shortcode-gallery"]
 
 [languages.en]
-title = "Paige"
-weight = 10
 
 [[languages.en.menu.main]]
 identifier = "home"
@@ -19,40 +17,10 @@ url = "/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "content"
-name = "Content"
-url = "/content/"
+identifier = "portfolio"
+name = "Portfolio"
+url = "/portfolio/"
 weight = 20
-
-[[languages.en.menu.main]]
-identifier = "layouts"
-name = "Layouts"
-url = "/layouts/"
-weight = 30
-
-[[languages.en.menu.main]]
-identifier = "shortcodes"
-name = "Shortcodes"
-url = "/shortcodes/"
-weight = 40
-
-[[languages.en.menu.main]]
-identifier = "customization"
-name = "Customization"
-url = "/customization/"
-weight = 50
-
-[[languages.en.menu.main]]
-identifier = "authors"
-name = "Authors"
-url = "/authors/"
-weight = 60
-
-[[languages.en.menu.main]]
-identifier = "series"
-name = "Series"
-url = "/series/"
-weight = 70
 
 [[languages.en.menu.main]]
 identifier = "categories"
@@ -71,12 +39,6 @@ identifier = "search"
 name = "Search"
 url = "/search/"
 weight = 100
-
-[[languages.en.menu.main]]
-identifier = "gallery"
-name = "Gallery"
-url = "/gallery/"
-weight = 120
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -98,28 +60,14 @@ section = ["atom", "html", "rss"]
 taxonomy = ["atom", "html", "rss"]
 term = ["atom", "html", "rss"]
 
-[params.authors.will-faught]
+[params.authors.matteo-valerio]
 default = true
-email = "will.faught@example.com"
-name = "Will Faught"
+email = "matteo.valerio@example.com"
+name = "Matteo Valerio"
 url = "https://willfaught.com/paige"
 
 [params.paige.git]
 commit_url = "https://github.com/willfaught/paige/commit/%s"
-
-[[params.paige.feed.atom.authors]]
-email = "will.faught@example.com"
-name = "Will Faught"
-url = "https://willfaught.com/paige"
-
-[params.paige.feed.rss]
-managing_editor = "will.faught@example.com (Will Faught)"
-web_master = "will.faught@example.com (Will Faught)"
-
-[params.paige.file_link]
-content = "Edit this page"
-disable = true
-url = "https://github.com/willfaught/paige/edit/master/exampleSite/content/%s"
 
 [taxonomies]
 author = "authors"
