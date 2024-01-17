@@ -23,6 +23,12 @@ url = "/portfolio/"
 weight = 20
 
 [[languages.en.menu.main]]
+identifier = "camera-gear"
+name = "Camera Gear"
+url = "/camera-gear/"
+weight = 30
+
+[[languages.en.menu.main]]
 identifier = "categories"
 name = "Categories"
 url = "/categories/"

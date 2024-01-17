@@ -24,7 +24,7 @@ description: "Albums"
 
 <br>
 
-{{% paige/gallery align="start" type="rows" %}}
+{{% paige/gallery align="center" type="rows" %}}
 
 {{% paige/figure caption="Flowers" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
@@ -42,6 +42,18 @@ description: "Albums"
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
                 src="images/thumb_animals.jpg"
                 link="../albums/butterflies/" %}}
+{{% /paige/figure %}}
+
+{{% /paige/gallery %}}
+
+<br>
+
+{{% paige/gallery align="center" type="rows" %}}
+
+{{% paige/figure caption="Moon" %}}
+{{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
+                src="images/thumb_bees.jpg"
+                link="../albums/moon/" %}}
 {{% /paige/figure %}}
 
 {{% /paige/gallery %}}
