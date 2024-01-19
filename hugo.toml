@@ -29,22 +29,10 @@ url = "/camera-gear/"
 weight = 30
 
 [[languages.en.menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 80
-
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 90
-
-[[languages.en.menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 100
+identifier = "contacts"
+name = "Contacts"
+url = "/contacts/"
+weight = 30
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -68,12 +56,7 @@ term = ["atom", "html", "rss"]
 
 [params.authors.matteo-valerio]
 default = true
-email = "matteo.valerio@example.com"
 name = "Matteo Valerio"
-url = "https://willfaught.com/paige"
-
-[params.paige.git]
-commit_url = "https://github.com/willfaught/paige/commit/%s"
 
 [taxonomies]
 author = "authors"
