@@ -8,7 +8,7 @@ description: "Albums"
 {{% paige/figure caption="Landscapes" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
                 src="images/thumb_landscapes.jpg" 
-                link="../albums/landcapes/" %}}
+                link="../albums/landscapes/" %}}
 {{% /paige/figure %}}
 {{% paige/figure caption="Birds" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
@@ -28,7 +28,7 @@ description: "Albums"
 
 {{% paige/figure caption="Flowers" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
-                src="images/thumb_bees.jpg"
+                src="images/thumb_flowers.jpg"
                 link="../albums/flowers/" %}}
 {{% /paige/figure %}}
 
@@ -40,7 +40,7 @@ description: "Albums"
 
 {{% paige/figure caption="Butterflies" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
-                src="images/thumb_animals.jpg"
+                src="images/thumb_butterflies.jpg"
                 link="../albums/butterflies/" %}}
 {{% /paige/figure %}}
 
@@ -50,9 +50,15 @@ description: "Albums"
 
 {{% paige/gallery align="center" type="rows" %}}
 
+{{% paige/figure caption="Sunset" %}}
+{{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
+                src="images/thumb_sunset.jpg"
+                link="../albums/sunset/" %}}
+{{% /paige/figure %}}
+
 {{% paige/figure caption="Moon" %}}
 {{% paige/image class="rounded-3" style="object-fit: cover; width: 15vw; height: 20vh;" 
-                src="images/thumb_bees.jpg"
+                src="images/thumb_moon.jpg"
                 link="../albums/moon/" %}}
 {{% /paige/figure %}}
 
