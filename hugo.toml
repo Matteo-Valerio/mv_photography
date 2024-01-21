@@ -6,7 +6,7 @@ paginate = 50
 timezone = "America/Los_Angeles"
 titlecasestyle = "Go"
 
-theme = ["hugo-shortcode-gallery"]
+theme = ["paige","hugo-shortcode-gallery"]
 
 [languages.en]
 
@@ -45,8 +45,7 @@ endlevel = 6
 ordered = true
 startlevel = 2
 
-[[module.imports]]
-path = "github.com/willfaught/paige"
+
 
 [outputs]
 home = ["atom", "html", "json", "rss"]
