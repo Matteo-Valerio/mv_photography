@@ -1,4 +1,4 @@
-baseurl = "https://github.com/Matteo-Valerio/mv_photography"
+baseurl = "https://mv-photography.netlify.app/"
 copyright = "© Matteo Valerio"
 enablerobotstxt = true
 languagecode = "en-us"
