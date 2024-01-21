@@ -6,7 +6,7 @@ on:
       - main # or whatever you call your production branch
 
 env:
-  HUGO_VERSION: 0.121.2 # will get Extended Version below
+  HUGO_VERSION: 0.121.1 # will get Extended Version below
   DART_SASS_VERSION: 1.69.6
   # if you have other environment variables,
   # enter them here in similar fashion
