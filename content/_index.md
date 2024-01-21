@@ -23,17 +23,17 @@ authors: ["matteo-valerio"]
     src="./img.jpg" width="100%" %}}
 </p>
 
-<!--
-<p>
-    {{< carousel items="4" height="20" unit="%" duration="1000" >}}
-</p>
--->
-
 <br>
 
-<p>
+<div id="mobileContent">
+    {{< carousel items="4" height="20" unit="%" duration="3000" >}}
+</div>
+
+<div id="desktopContent">
     {{< glide >}}
-</p>
+</div>
+
+<br>
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
     {{< paige/icon class="bi bi-image" title="Flickr" url="https://www.flickr.com/photos/199805932@N03/" >}}
