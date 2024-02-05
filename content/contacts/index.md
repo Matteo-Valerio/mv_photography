@@ -9,7 +9,7 @@ date: 2024-01-05
 <p>
 {{% paige/image alt="" class="rounded-3" 
     fetchpriority="high" loading="eager" process="webp" 
-    src="images/MV.jpg" height="auto" width="40%" %}}
+    src="images/MV.jpg" height="auto" width="25%" %}}
 </p>
 </div>
 
