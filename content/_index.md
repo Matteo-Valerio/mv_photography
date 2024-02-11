@@ -39,6 +39,5 @@ authors: ["matteo-valerio"]
     {{< paige/icon class="fa-brands fa-flickr" title="Flickr" url="https://www.flickr.com/photos/199805932@N03/" >}}
     {{< paige/icon class="fa-brands fa-500px" title="500px" url="https://500px.com/p/matteovalerio" >}}    
     {{< paige/icon class="bi bi-instagram" title="Instagram" url="https://www.instagram.com/_matteo.valerio_/" >}}
-    {{< paige/icon class="bi bi-telegram" title="Telegram" url="https://telegram.me/MatteoValerio" >}} 
 </div>
 
